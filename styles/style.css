@@ -1,0 +1,53 @@
+/* -----fonts ----*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ----common styles -----*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+/*---------- Top heading part styles--------- */
+.top-container{
+    display: flex;
+    width: 1520px;
+    height: 677px;
+    /* margin-left: 35px; */
+    margin-top: 0;
+    margin-left: 0;
+    margin-left: 0;
+    background: #2D25A0;
+    color: white;
+}
+
+.watch-live a{
+    text-decoration: none;
+    Width: 168px;
+    Height: 44px;
+    background: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    }
+.top-blog{
+    width: 50%;
+    padding-left:156px ;
+    padding-top: 103px;
+}
+.blog-info h1{
+    font-size: 55px;
+    font-weight: 700;
+    padding-top: 48px;
+    margin-top: 67px;
+    margin-bottom: 23px;
+}
+
+.top-picture{
+    width: 60%;
+}
+.top-picture img{
+    width: 70%;
+    padding-top: 153px;
+    padding-right: 140px;
+    padding-bottom: 86px;
+}
+    
