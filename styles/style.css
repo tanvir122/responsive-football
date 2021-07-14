@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
+    background-color: #ffffff;
     /* height:100%; */
 }
 /*---------- Top heading part styles--------- */
@@ -114,7 +114,50 @@ Players image and blogs
      height: 256px;
      width: 300px;
  }
+/*------------- match info ------------*/
 
+.matches{
+    background-color: #2D25A0;
+    height: 250px;
+    width: 1500px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    padding-left: 300px;
+    
+    color:#F3F1FF;
+    margin-top: 60px;
+    
+}
+.match-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+    /* -------------End of Match information section ------------- */
+
+.my-form{
+    margin-top: 30px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form-info{
+    width: 400px;
+    outline: none;
+    border: 2px solid rebeccapurple;
+    border-radius: 7px;
+    padding: 10px;
+}
+.submit-b{
+    color: white;
+    padding: 2px 12px;
+    background-color: #2D25A0;
+    outline: none;
+    border-radius: 5px;
+}
 /* ------------
      footers  
  --------------*/
