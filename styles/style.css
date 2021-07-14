@@ -4,18 +4,23 @@
 /* ----common styles -----*/
 
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    /* height:100%; */
 }
 /*---------- Top heading part styles--------- */
+.nain-container{
+    background-color: white;
+}
+
 .top-container{
     display: flex;
     width: 1520px;
     height: 677px;
     /* margin-left: 35px; */
-    margin-top: 0;
-    margin-left: 0;
-    margin-left: 0;
+    
     background: #2D25A0;
     color: white;
 }
@@ -58,7 +63,7 @@ Players image and blogs
  
  .players{
     width: 1050px;
-    height: 474px;
+    /* height: 474px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 27px;
@@ -110,3 +115,28 @@ Players image and blogs
      width: 300px;
  }
 
+/* ------------
+     footers  
+ --------------*/
+
+.footer-final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img img{
+    height: 110px;
+    width: 483px;
+    padding-top: 158px;
+    padding-bottom: 20px;
+}
+.fab{
+    padding-right: 20px;
+    height: 32px;
+    
+}
+.fa-facebook{
+    height: 32px;
+    width: 32px;
+}
